@@ -6,5 +6,5 @@ echo "Script name is: $0"
 echo "Script running by: $USER"
 echo "Home directory of the user is: $USER"
 echo "PID of the script is: $$"
-sleep 30
-echo "PID of the last command is: $!"
+sleep 30 &
+echo "PID of the last command in background is: $!"
