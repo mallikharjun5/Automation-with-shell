@@ -10,10 +10,10 @@ do
 done
 
 # GET PUBLIC IP
-    if [ $instance != "shell" ]; then
-        IP=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --query 'Reservations[0].Instances[0].PrivateIpAddress' --output text)
-    else
+    if [ "$instance" = "test" ]; then
         IP=$(aws ec2 describe-instances --instance-ids $INSTANCE_ID --query 'Reservations[0].Instances[0].PublicIpAddress' --output text)
+    else
+        echo "check the syntax once"
 
     fi
 
