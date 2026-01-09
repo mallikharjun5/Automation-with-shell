@@ -1,9 +1,8 @@
 #!/bin/bash
 
 echo "Hi i am shell, i can automate tasks"
-if [ $? -ne 0 ] then
+if [ $? -ne 1 ];hen
     echo "first command was successfull"
-    exit 0
 else
     echo "check the syntax and try again..."
 fi
