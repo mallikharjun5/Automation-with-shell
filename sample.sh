@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-trap 'echo "There is an error iN line $LINENO, Command is: $BASH_COMMAND"' ERR
+trap 'echo "There is an error in line $LINENO, Command is: $BASH_COMMAND"' ERR
 
 
 echo "Hi i am shell, i can automate tasks"
@@ -12,4 +12,5 @@ else
     echo "check the syntax and try again..."
 fi
 
-kdahbka;ashvd
+kdahbka;ashvdz
+
