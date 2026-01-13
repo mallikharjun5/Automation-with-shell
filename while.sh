@@ -2,7 +2,7 @@
 
 count=5
 
-echo "Starting Countdown/..."
+echo "Starting Countdown..."
 
 while [ $count -gt 0 ]
 do
