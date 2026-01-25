@@ -18,3 +18,4 @@ done
     fi
 
     echo "$instance: $IP"
+    echo "now you can login the server"
