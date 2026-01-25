@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(id -u)
+USERID=$(id -u)     # TO KNOW ABOUT THE USER
 
 if [ $USERID -ne 0 ]; then
     echo "Error:: please run this script with root privilege"
