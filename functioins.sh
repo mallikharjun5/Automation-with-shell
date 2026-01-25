@@ -8,7 +8,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 
-VALIDATE (){
+VALIDATE (){                                                        # funnction
     if [ $1 -ne 0 ]; then
         echo "Error:: Installing $2 is failure"
         exit 1
