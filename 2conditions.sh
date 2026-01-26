@@ -1,6 +1,5 @@
 #!/bin/bash
 
-read -s NUMBER 
 NUMBER=$1
 
 if [ $NUMBER -lt 10 ]; then
