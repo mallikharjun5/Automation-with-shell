@@ -6,11 +6,11 @@ str2=world
 echo "string operational"
 echo "=================="
 
-if [ "$str1 = $str2" ]; then
+if [ "$str1" = "$str2" ]; then
     echo "strings are equal"
 fi
 
-if [ "$str1 != $str2" ]; then
+if [ "$str1" != "$str2" ]; then
     echo "strings are not equal"
 fi
 
