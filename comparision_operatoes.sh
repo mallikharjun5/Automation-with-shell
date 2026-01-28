@@ -1,7 +1,9 @@
 #!/bin/bash
 
 read -s -p "enter value of a:" a
+echo
 read -s -p "enter value of b:" b
+echo
 
 echo "comparision operations"
 
