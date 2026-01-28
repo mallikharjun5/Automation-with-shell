@@ -1,6 +1,7 @@
 #!/bin/bash
 
-read -s -p "enter the file name:" file
+read -p "enter the file name:" file
+echo
 
 if [ -f "$file" ]; then
     echo "The file $file exists"
