@@ -1,7 +1,7 @@
 #!/bin/bash
 
-a=20
-b=30
+read -s -p "enter value of a:" a
+read -s -p "enter value of b:" b
 
 echo "comparision operations"
 
