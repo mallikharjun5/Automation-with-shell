@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -s -p "enter value of:" a
-read -s -p "enter value of:" b
+read -s -p "enter value of a:" a
+read -s -p "enter value of b:" b
 echo "A=$a, B=$b"
 echo "Arithmetic operation of A and B"
 echo "addition of two numbers $(( a + b ))"
