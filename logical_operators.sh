@@ -1,7 +1,7 @@
 #!/bin/bash
 
-a=20
-b=40
+a=30
+b=5
 
 echo "logical operations"
 if [ $a -eq 20 ] && [ $b -eq 5 ]; then
