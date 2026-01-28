@@ -14,7 +14,7 @@ if [ "$str1" != "$str2" ]; then
     echo "strings are not equal"
 fi
 
-str3= "$str1 $str2"
+str3="$str1 $str2"
 echo "Concatenated string : $str3"
-length= ${#str3}
+length=${#str3}
 echo "length of str3 is $length"
